@@ -31,7 +31,10 @@
         <span>No soy un robot</span>
       </label>
 
-      <a class="btn disabled" id="download-btn" href="MODPACK.zip">Descargar Modpack</a>
+      <!-- LINK DIRECTO GITHUB IMPLEMENTADO -->
+      <a class="btn disabled" id="download-btn" href="https://github.com/TegoFumaron/Bronx25/releases/download/v1.0/BRONX25.zip">
+        Descargar Modpack
+      </a>
     </section>
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -62,18 +65,16 @@
 
   <!-- MODAL DE DESCARGA -->
   <div id="download-modal" class="hidden">
-  <div class="modal-box">
-    <h3>Descargando modpack...</h3>
+    <div class="modal-box">
+      <h3>Descargando modpack...</h3>
 
-    <div class="progress-bar">
-      <div class="progress-fill"></div>
+      <div class="progress-bar">
+        <div class="progress-fill"></div>
+      </div>
+
+      <p id="progress-text">0%</p>
+      <p id="approx-text">*Esta barra de carga es una aproximación.</p>
     </div>
-
-    <p id="progress-text">0%</p>
-
-    <!-- TEXTO NUEVO -->
-    <p id="approx-text">*Esta barra de carga es una aproximación.</p>
-  </div>
   </div>
 
   <script src="js/scroll.js"></script>

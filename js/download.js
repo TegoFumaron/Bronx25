@@ -12,8 +12,8 @@ downloadBtn.addEventListener("click", () => {
   fill.style.width = "0%";
   progressText.textContent = "0%";
 
-  // INICIAR DESCARGA EN SEGUNDO PLANO
-  window.open("TU_LINK_DE_MEDIAFIRE_AQUI", "_blank");
+  // INICIAR DESCARGA EN SEGUNDO PLANO (DESCARGA DIRECTA GITHUB)
+  window.open("https://github.com/TegoFumaron/Bronx25/releases/download/v1.0/BRONX25.zip", "_blank");
 
   // PROGRESO SIMULADO (realista)
   let progress = 0;
