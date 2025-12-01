@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bronx25 - Modpack</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header id="hero">
+    <div id="hero-text">
+      <h1>Bronx25</h1>
+      <p>Modpack oficial · Versión 1.20.1 · Forge</p>
+    </div>
+  </header>
+
+  <br><br><br><br>
+
+  <main>
+    <section>
+      <h2>Descargar Modpack</h2>
+
+      <p>Haz clic en el botón para descargar el modpack e instalarlo.</p>
+
+      <br><br><br><br><br><br><br><br>
+
+      <!-- CAPTCHA AÑADIDO AQUÍ -->
+      <label id="captcha-box">
+        <input type="checkbox" id="captcha-check">
+        <span>No soy un robot</span>
+      </label>
+
+      <a class="btn disabled" id="download-btn" href="MODPACK.zip">Descargar Modpack</a>
+    </section>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <section>
+      <h2>Información del Servidor</h2>
+
+      <ul>
+        <li><strong>IP:</strong> en el servidor de discord</li>
+        <li><strong>Versión:</strong> Minecraft 1.20.1 Fabric</li>
+        <li><strong>Mods:</strong> TaCZ, Create, etc.</li>
+        <li><strong>RAM recomendada:</strong> 4–6 GB</li>
+      </ul>
+
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+      <h3 style="margin-top: 40px;">Galería de los Mods</h3>
+
+      <div class="gallery">
+        <img src="img/infoserv/crafting.jpg" alt="crafting">
+        <img src="img/infoserv/deagle.png" alt="deagle">
+        <img src="img/infoserv/g3_attachment.png" alt="g3 attachment">
+        <img src="img/infoserv/tacz_head_banner.png" alt="tacz head banner">
+        <img src="img/infoserv/mg68xFT.png" alt="Corpose">
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL DE DESCARGA -->
+  <div id="download-modal" class="hidden">
+  <div class="modal-box">
+    <h3>Descargando modpack...</h3>
+
+    <div class="progress-bar">
+      <div class="progress-fill"></div>
+    </div>
+
+    <p id="progress-text">0%</p>
+
+    <!-- TEXTO NUEVO -->
+    <p id="approx-text">*Esta barra de carga es una aproximación.</p>
+  </div>
+  </div>
+
+  <script src="js/scroll.js"></script>
+  <script src="js/captcha.js"></script>
+  <script src="js/download.js"></script>
+
+</body>
+</html>
