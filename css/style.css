@@ -182,3 +182,30 @@ ul {
   font-style: italic;
 }
 
+/* BOTÓN PAYPAL BRONX STYLE */
+#paypal-bronx {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: #d5b14d;
+  color: #1b1b1b;
+  padding: 14px 26px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 12px rgba(0,0,0,0.6);
+  transition: 0.2s ease;
+  border: 2px solid #b38e2d;
+}
+
+#paypal-bronx img {
+  width: 28px;
+  height: 28px;
+}
+
+#paypal-bronx:hover {
+  background: #b89327;
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px rgba(213,177,77,0.6);
+}
