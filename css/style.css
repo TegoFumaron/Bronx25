@@ -254,3 +254,24 @@ ul {
 #status-text.offline {
   color: #ff7373; /* Rojo suave */
 }
+
+/* BOTÓN FORGE (50% tamaño del botón principal) */
+.btn-forge {
+  display: inline-block;
+  background: #67552665;            /* mismo color que tu botón principal */
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;             /* 50% del padding del botón grande */
+  font-size: 0.85rem;             /* más pequeño */
+  border-radius: 8px;             /* mismo borde */
+  margin-top: 12px;               /* separación respecto al botón principal */
+  transition: 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover igual al del botón principal pero adaptado */
+.btn-forge:hover {
+  background: rgba(213, 177, 77, 0.268);            /* mismo hover */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
