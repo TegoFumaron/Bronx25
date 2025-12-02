@@ -229,3 +229,28 @@ ul {
 .descubre-container .btn:hover {
   background: rgba(213,177,77,0.6);
 }
+
+/* ESTADO DEL SERVIDOR */
+#server-status {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#server-status h2 {
+  /* color: #c2d6a4; Verde clarito estilo Bronx */
+  margin-bottom: 10px;
+  font-size: 1.7rem;
+}
+
+#status-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#status-text.online {
+  color: #8cff8c; /* Verde pastel/clarito */
+}
+
+#status-text.offline {
+  color: #ff7373; /* Rojo suave */
+}
