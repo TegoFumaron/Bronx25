@@ -209,3 +209,23 @@ ul {
   transform: translateY(-2px);
   box-shadow: 0 0 15px rgba(213,177,77,0.6);
 }
+
+.descubre-container {
+  text-align: center;
+}
+
+.descubre-container .btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #b89327;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s;
+  margin-top: 20px;
+}
+
+.descubre-container .btn:hover {
+  background: rgba(213,177,77,0.6);
+}
