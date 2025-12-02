@@ -13,7 +13,7 @@ downloadBtn.addEventListener("click", () => {
   progressText.textContent = "0%";
 
   // INICIAR DESCARGA EN SEGUNDO PLANO (DESCARGA DIRECTA GITHUB)
-  window.open("https://github.com/TegoFumaron/Bronx25/releases/download/v1.5/BRONX.25-26.zip", "_blank");
+  window.open("https://github.com/TegoFumaron/Bronx25/releases/download/v1.7/BRONX25v1x7.zip", "_blank");
 
   // PROGRESO SIMULADO (realista)
   let progress = 0;
